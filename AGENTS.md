@@ -1,7 +1,9 @@
 # Agent instructions — AI-Psychohistory-Mini
 
 **Who reads this:** Grok / coding agents (and humans who want the same rules).  
-**How to use:** This file is *how we work*. Prompt text lives in [`PsychoHistory-Mini.txt`](PsychoHistory-Mini.txt).
+**How to use:** This file is *how we work*. Prompt text lives in [`PsychoHistory-Mini.txt`](PsychoHistory-Mini.txt) (canon). This file does not replace it.
+
+This repo is **public**. Do not put secrets or private issue links in commits.
 
 ---
 
@@ -9,15 +11,8 @@
 
 1. **This file**
 2. **[`README.md`](README.md)** + **`PsychoHistory-Mini.txt`**
-3. GitHub **`RakaMaru`**. If `gh api user` is not RakaMaru, `gh auth switch -h github.com -u RakaMaru` (do not run `gh-set-user-RakaMaru.bat`; it pauses).
-
-This repo is **public**. Do not put secrets or private issue links in commits.
-
----
-
-## What this repo is
-
-Hari Seldon / psychohistory paste-prompt. Not RTTools, not a product app.
+3. GitHub **`RakaMaru`**. `gh auth switch -h github.com -u RakaMaru` if needed (do not run `gh-set-user-RakaMaru.bat`; it pauses).
+4. **Decision table** — [`skills/decision-table/SKILL.md`](skills/decision-table/SKILL.md).
 
 ---
 
@@ -31,9 +26,11 @@ GitHub **RakaMaru** / `RakaMaru/AI-Psychohistory-Mini` (**public**). Commit **Ra
 
 ## Discuss vs implement
 
-**Default: do not change files** until they ask. **Report ≠ fix.** Work on local **`dev`**. Do not run promote bats unless asked.
+**Default: do not change files** until they ask. **Report ≠ fix.** Local **`dev`**. Do not run promote bats unless asked.
 
-Issues = backlog. **`later`** = deferred. Do **not** create a label named `backlog`.
+**`later`** = deferred. Do **not** create a label named `backlog`.
+
+Decision tables: same four columns as RTTools.
 
 Issues: https://github.com/RakaMaru/AI-Psychohistory-Mini/issues
 
@@ -43,4 +40,5 @@ Issues: https://github.com/RakaMaru/AI-Psychohistory-Mini/issues
 
 | Date | Change |
 |------|--------|
-| 2026-08-22 | First AGENTS.md (thin kit; local look first). |
+| 2026-08-22 | First AGENTS.md (thin kit). |
+| 2026-08-23 | Process kit (RTTools#59). |
