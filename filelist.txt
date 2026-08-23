@@ -1,18 +1,16 @@
 ============================================================
 File list for: C:\common\Projects\AI-Psychohistory-Mini
-Generated on : Sat 08/22/2026 23:01:47.19
+Generated on : 2026-08-22 23:14:11
 Script       : gh-filelist.bat
 ============================================================
 
-[TREE /A]
-Folder PATH listing for volume OS
-Volume serial number is 000000BB C2DB:DE38
-C:.
-No subfolders exist 
-
+[TREE]
+(excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)
+C:\common\Projects\AI-Psychohistory-Mini
+\---scripts
 
 ------------------------------------------------------------
-[FLAT LIST: dir /s /b  (EXCLUDES .git)]
+[FLAT LIST  (excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)]
 ------------------------------------------------------------
 C:\common\Projects\AI-Psychohistory-Mini\AGENTS.md
 C:\common\Projects\AI-Psychohistory-Mini\filelist.txt
@@ -20,11 +18,13 @@ C:\common\Projects\AI-Psychohistory-Mini\gh-dev-reset.bat
 C:\common\Projects\AI-Psychohistory-Mini\gh-dev-sync.bat
 C:\common\Projects\AI-Psychohistory-Mini\gh-dev-to-main-commit.bat
 C:\common\Projects\AI-Psychohistory-Mini\gh-filelist.bat
-C:\common\Projects\AI-Psychohistory-Mini\gh-set-user-RakaMaru.bat
 C:\common\Projects\AI-Psychohistory-Mini\gh-setup-user-RakaMaru.bat
+C:\common\Projects\AI-Psychohistory-Mini\gh-set-user-RakaMaru.bat
 C:\common\Projects\AI-Psychohistory-Mini\PsychoHistory-Mini.txt
 C:\common\Projects\AI-Psychohistory-Mini\README.md
+C:\common\Projects\AI-Psychohistory-Mini\scripts
+C:\common\Projects\AI-Psychohistory-Mini\scripts\write-filelist.ps1
 
-[TOTALS  (EXCLUDES .git)]
-Directories: 0
-Files      : 10
+[TOTALS  (excludes .git, .venv, venv, __pycache__, .idea, .vscode, mcps, node_modules, caches)]
+Directories: 1
+Files      : 11
